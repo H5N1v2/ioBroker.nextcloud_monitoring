@@ -4,6 +4,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.nextcloud_monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.nextcloud_monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
+![Number of Installations](https://iobroker.live/badges/nextcloud_monitoring-installed.svg)
 
 [![NPM](https://nodei.co/npm/iobroker.nextcloud_monitoring.png?downloads=true)](https://nodei.co/npm/iobroker.nextcloud_monitoring/)
 
