@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/npm/dm/iobroker.nextcloud_monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
 ![Number of Installations](https://iobroker.live/badges/nextcloud_monitoring-installed.svg)
 
-[![NPM](https://nodei.co/npm/iobroker.nextcloud_monitoring.png?downloads=true)](https://nodei.co/npm/iobroker.nextcloud_monitoring/)
+[![NPM](https://nodei.co/npm/iobroker.nextcloud_monitoring.png?downloads=true)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
 
 **Tests:**  ![Test and Release](https://github.com/H5N1v2/iobroker.nextcloud_monitoring/workflows/Test%20and%20Release/badge.svg)
 
