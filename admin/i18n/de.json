@@ -1,0 +1,18 @@
+{
+    "nextcloud_monitoring adapter settings": "Adaptereinstellungen für Nextcloud Monitoring",
+    "Domain": "Domain (ohne https://), z.B. mycloud.de oder mycloud.de/folder",
+    "Connection Settings": "Verbindung",
+    "Data Options": "Optionen",
+    "Nextcloud API Configuration": "API Konfiguration",
+    "Please enter your connection details. Protocol (https://) is added automatically.": "Bitte Verbindungsdaten eingeben. Das Protokoll (https://) wird automatisch ergänzt.",
+    "Token": "Token",
+    "Filter & Performance": "Datenfilter & Performance",
+    "Skip Apps Data": "App-Details ignorieren",
+    "Check this to reduce data volume": "Aktivieren, um die API-Last durch App-Infos zu senken.",
+    "Skip Update Check": "Server-Update Prüfung deaktivieren",
+    "Check this to disable version checking": "Aktivieren, wenn nicht auf Nextcloud-Updates geprüft werden soll.",
+    "Update Interval": "Update-Intervall",
+    "Time in minutes between API calls": "Zeit in Minuten zwischen den Abfragen",
+    "min": "Min."
+    
+}

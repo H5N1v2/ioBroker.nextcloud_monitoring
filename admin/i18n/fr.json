@@ -1,0 +1,8 @@
+{
+	"nextcloud_monitoring adapter settings": "Paramètres d'adaptateur pour nextcloud_monitoring",
+	"Domain": "Domain (sans https://)",
+    "domain_help": "Entrez votre Nextcloud sans le protocole (par exemple, mycloud.de) ou avec dossier (par exemple, mycloud.de/folder)",
+    "Token": "Token",
+    "Skip Apps": "Ignorer les applications",
+    "Skip Updates": "Ignorer les mises à jour"
+}

@@ -1,0 +1,93 @@
+{
+	"common": {
+		"name": "nextcloud_monitoring",
+		"version": "1.1.0",
+		"news": {
+			"1.1.0": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Nextcloud Monitoring",
+			"de": "Nextcloud-Überwachung",
+			"ru": "Nextcloud Мониторинг",
+			"pt": "Monitoramento Nextcloud",
+			"nl": "Nextcloud-monitoring",
+			"fr": "Surveillance Nextcloud",
+			"it": "Monitoraggio Nextcloud",
+			"es": "Monitoreo de NextCloud",
+			"pl": "Monitorowanie następnej chmury",
+			"uk": "Моніторинг Nextcloud",
+			"zh-cn": "下一个云监控"
+		},
+		"desc": {
+			"en": "Monitoring your Nextcloud",
+			"de": "Überwachung Ihrer Nextcloud",
+			"ru": "Мониторинг вашего Nextcloud",
+			"pt": "Monitorando seu Nextcloud",
+			"nl": "Bewaking van uw Nextcloud",
+			"fr": "Surveillance de votre Nextcloud",
+			"it": "Monitoraggio del tuo Nextcloud",
+			"es": "Monitorizando tu Nextcloud",
+			"pl": "Monitorowanie Nextcloud",
+			"uk": "Моніторинг вашого Nextcloud",
+			"zh-cn": "监控您的 Nextcloud"
+		},
+		"authors": [
+			"H5N1 <h5n1@iknox.de>"
+		],
+		"keywords": [
+			"cloud",
+			"nextcloud",
+			"monitoring",
+			"user"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "nextcloud_monitoring.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/H5N1v2/ioBroker.nextcloud_monitoring/main/admin/nextcloud_monitoring.png",
+		"readme": "https://github.com/H5N1v2/ioBroker.nextcloud_monitoring/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "network",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=7.0.23"
+			}
+		]
+	},
+	"native": {
+		"domain": "",
+		"token": "",
+		"skipApps": true,
+		"skipUpdate": true
+	},
+	"objects": [],
+	"instanceObjects": []
+}

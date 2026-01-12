@@ -1,0 +1,8 @@
+{
+	"nextcloud_monitoring adapter settings": "nextcloud_monitoring的适配器设置",
+	"Domain": "域名(不包含https://)",
+	"domain_help": "请输入您的Nextcloud域名(例如,mycloud.de)或带文件夹的域名(例如,mycloud.de/folder)",
+	"Token": "Token",
+	"Skip Apps": "跳过应用",
+	"Skip Updates": "跳过更新"
+}
