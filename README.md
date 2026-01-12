@@ -4,12 +4,10 @@
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.nextcloud_monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.nextcloud_monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
-![Number of Installations](https://iobroker.live/badges/nextcloud_monitoring-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/nextcloud_monitoring-stable.svg)
 
 [![NPM](https://nodei.co/npm/iobroker.nextcloud_monitoring.png?downloads=true)](https://nodei.co/npm/iobroker.nextcloud_monitoring/)
 
-**Tests:** ![Test and Release](https://github.com/H5N1v2/ioBroker.nextcloud_monitoring/workflows/Test%20and%20Release/badge.svg)
+**Tests:**  ![Test and Release](https://github.com/H5N1v2/iobroker.nextcloud_monitoring/workflows/Test%20and%20Release/badge.svg)
 
 # nextcloud_monitoring adapter for ioBroker
 
