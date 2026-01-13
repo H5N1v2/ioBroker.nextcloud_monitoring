@@ -40,7 +40,9 @@ class NextcloudMonitoring extends utils.Adapter {
       this.log.error("Konfiguration unvollst\xE4ndig: Domain oder Token fehlt!");
       return;
     }
-    this.apiClient = new import_nextcloudApi.NextcloudApiClient(config.domain, config.token, config.skipApps, config.skipUpdate);
+    const activeToken = config.token.trim();
+    this.log.info(`Debug: Token-L\xE4nge ist ${activeToken.length} Zeichen.`);
+    this.apiClient = new import_nextcloudApi.NextcloudApiClient(config.domain, activeToken, config.skipApps, config.skipUpdate);
     await this.updateNextcloudData();
     const interval = (config.interval || 10) * 60 * 1e3;
     this.setInterval(() => this.updateNextcloudData(), interval);

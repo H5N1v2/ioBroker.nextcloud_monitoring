@@ -30,7 +30,14 @@ class NextcloudMonitoring extends utils.Adapter {
 			return;
 		}
 
-		this.apiClient = new NextcloudApiClient(config.domain, config.token, config.skipApps, config.skipUpdate);
+		// Wir nehmen den Token EXAKT so, wie ioBroker ihn uns gibt.
+		// Die Automatik im js-controller sollte das Entschlüsseln übernehmen.
+		const activeToken = config.token.trim();
+
+		// Das hier hilft uns beim Debuggen: Wie lang ist der Token?
+		this.log.info(`Debug: Token-Länge ist ${activeToken.length} Zeichen.`);
+
+		this.apiClient = new NextcloudApiClient(config.domain, activeToken, config.skipApps, config.skipUpdate);
 
 		await this.updateNextcloudData();
 		const interval = (config.interval || 10) * 60 * 1000;

@@ -98,17 +98,17 @@ Verify if the token was correctly saved in Nextcloud using:
 
 If your Nextcloud is in maintenance mode, the adapter will not be able to fetch data and will log an error. This is normal behavior as the API is disabled during maintenance.
 
+### **WORK IN PROGRESS**
+* (H5N1v2) fixed: repository URLs and naming conventions
+* (H5N1v2) added: encrypted and protected native support for tokens
 
 Changelog
-1.0.0
+1.1.0
 
-* Initial release.
-* Multi-language support for object names (DE/EN/IT/ES/RU etc.).
-* Support for OCS API Token.
-* Integrated dynamic update interval.
-
-### **WORK IN PROGRESS**
-* (H5N1v2) initial release
+* (H5N1v2) Initial release.
+* (H5N1v2) Multi-language support for object names (DE/EN/IT/ES/RU etc.).
+* (H5N1v2) Support for OCS API Token.
+* (H5N1v2) Integrated dynamic update interval.
 
 ---
 

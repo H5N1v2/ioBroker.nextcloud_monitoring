@@ -3,6 +3,19 @@
 		"name": "nextcloud_monitoring",
 		"version": "1.1.0",
 		"news": {
+			"1.1.1": {
+				"en": "fixed repository URLs and naming conventions\nadded encrypted and protected native support for tokens",
+				"de": "korrigierte Repository-URLs und Namensgebung\nhinzugefügen von verschlüsselten und geschützten nativen Support für Tokens",
+				"ru": "исправлены URL-адреса репозиториев и названия\nдобавлен защищенный и зашифрованный поддержка токенов",	
+				"pt": "correções nas URLs dos repositórios e convensões de nome\nadicionado suporte nativo criptografado e protegido para tokens",
+				"nl": "fixed repository URLs and naming conventions\nadded encrypted and protected native support for tokens",
+				"fr": "corrections des URLs des repositories et des conventions de nommage\najout de support natif protégé et crypté pour les tokens",
+				"it": "correzioni nelle URL dei repository e nelle convenzioni di nomi\nsupporto nativo protetto e criptato per i token aggiunto",
+				"es": "correcciones en las URLs de los repositorios y las convenciones de nombres\nse agregó el soporte nativo protegido y cifrado para los tokens",
+				"pl": "poprawiono URL repozytoriów i konwencje nazw\ndodano zabezpieczony i zaszyfrowany obsługiwany natywne dla tokenów",
+				"uk": "виправлені URL-адреси репозиторій і назви\nдодано захищене і зашифроване підтримування токенів",
+				"zh-cn": "修正了仓库 URL 和命名规范\n添加了对令牌的加密和保护的原生支持"
+			},
 			"1.1.0": {
 				"en": "initial release",
 				"de": "Erstveröffentlichung",
@@ -82,6 +95,12 @@
 			}
 		]
 	},
+	"protectedNative": [
+            "token"
+        ],
+        "encryptedNative": [
+            "token"
+        ],
 	"native": {
 		"domain": "",
 		"token": "",
