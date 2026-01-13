@@ -1,4 +1,3 @@
-
 ![Logo](admin/nextcloud_monitoring.png)
 # ioBroker.nextcloud_monitoring
 
@@ -97,8 +96,7 @@ Verify if the token was correctly saved in Nextcloud using:
 ### Maintenance Mode:
 
 If your Nextcloud is in maintenance mode, the adapter will not be able to fetch data and will log an error. This is normal behavior as the API is disabled during maintenance.
-
-### **WORK IN PROGRESS**
+### 1.1.1 (2026-01-13)
 * (H5N1v2) fixed: repository URLs and naming conventions
 * (H5N1v2) added: encrypted and protected native support for tokens
 

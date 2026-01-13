@@ -1,6 +1,6 @@
 {
   "name": "iobroker.nextcloud_monitoring",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Monitoring your Nextcloud",
   "author": {
     "name": "H5N1",
