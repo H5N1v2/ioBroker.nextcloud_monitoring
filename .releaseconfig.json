@@ -2,7 +2,8 @@
 	"plugins": [
 		"iobroker",
 		"license",
-		"manual-review"
+		"manual-review",
+		"npm"
 	],
 	"exec": {
 		"before_commit": "npm run build"

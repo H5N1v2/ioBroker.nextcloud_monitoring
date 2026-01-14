@@ -11,7 +11,7 @@ nbproject
 
 # npm package files
 iobroker.*.tgz
-.npmrc
+.releaserc.json
 
 Thumbs.db
 .commitinfo

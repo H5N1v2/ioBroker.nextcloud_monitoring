@@ -14,7 +14,7 @@ class NextcloudMonitoring extends utils.Adapter {
 	private apiClient: NextcloudApiClient | undefined;
 
 	public constructor(options: Partial<utils.AdapterOptions> = {}) {
-		super({ ...options, name: 'nextcloud_monitoring' });
+		super({ ...options, name: 'nextcloud-monitoring' });
 		this.on('ready', this.onReady.bind(this));
 		this.on('unload', this.onUnload.bind(this));
 	}
@@ -30,11 +30,7 @@ class NextcloudMonitoring extends utils.Adapter {
 			return;
 		}
 
-		// Wir nehmen den Token EXAKT so, wie ioBroker ihn uns gibt.
-		// Die Automatik im js-controller sollte das Entschlüsseln übernehmen.
 		const activeToken = config.token.trim();
-
-		// Das hier hilft uns beim Debuggen: Wie lang ist der Token?
 		this.log.info(`Debug: Token-Länge ist ${activeToken.length} Zeichen.`);
 
 		this.apiClient = new NextcloudApiClient(config.domain, activeToken, config.skipApps, config.skipUpdate);
@@ -278,7 +274,12 @@ class NextcloudMonitoring extends utils.Adapter {
 
 			this.log.info('Monitoring: Alle verfügbaren API-Daten wurden eingelesen.');
 		} catch (error: any) {
-			this.log.error(`Fehler beim Einlesen der API-Daten: ${error.message}`);
+			// PRÜFUNG AUF WARTUNGSMODUS (Status 503)
+			if (error.response && error.response.status === 503) {
+				this.log.info('Nextcloud befindet sich im Wartungsmodus (Maintenance). Abfrage übersprungen.');
+			} else {
+				this.log.error(`Fehler beim Einlesen der API-Daten: ${error.message}`);
+			}
 		}
 	}
 

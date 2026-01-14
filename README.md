@@ -1,16 +1,28 @@
+![Logo](admin/nextcloud-monitoring.png)
+# ioBroker.nextcloud-monitoring
 
-![Logo](admin/nextcloud_monitoring.png)
-# ioBroker.nextcloud_monitoring
+[![NPM version](https://img.shields.io/npm/v/iobroker.nextcloud-monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud-monitoring)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.nextcloud-monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud-monitoring)
+![Number of Installations](https://iobroker.live/badges/nextcloud-monitoring-installed.svg)
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.nextcloud_monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.nextcloud_monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
-![Number of Installations](https://iobroker.live/badges/nextcloud_monitoring-installed.svg)
+[![NPM](https://nodei.co/npm/iobroker.nextcloud-monitoring.png?downloads=true)](https://www.npmjs.com/package/iobroker.nextcloud-monitoring)
 
-[![NPM](https://nodei.co/npm/iobroker.nextcloud_monitoring.png?downloads=true)](https://www.npmjs.com/package/iobroker.nextcloud_monitoring)
+**Tests:**  ![Test and Release](https://github.com/H5N1v2/iobroker.nextcloud-monitoring/workflows/Test%20and%20Release/badge.svg)
 
-**Tests:**  ![Test and Release](https://github.com/H5N1v2/iobroker.nextcloud_monitoring/workflows/Test%20and%20Release/badge.svg)
+# nextcloud-monitoring adapter for ioBroker
 
-# nextcloud_monitoring adapter for ioBroker
+---
+## ⚠️ Important Note: Naming Convention Change (v1.1.2+)
+
+> **ATTENTION:** Due to official ioBroker naming guidelines, this adapter has been renamed from `nextcloud_monitoring` (underscore) to **`nextcloud-monitoring`** (dash).
+
+**What does this mean for you?**
+* **No automatic updates:** If you are using version 1.1.1 or older, you will no longer receive updates through the old package name.
+* **Reinstallation required:** Please uninstall the old version (`nextcloud_monitoring`) and install the new version (`nextcloud-monitoring`) via the ioBroker repository or GitHub.
+* **Settings:** You will need to re-enter your instance configuration once in the new version.
+
+We apologize for the inconvenience, but this change was necessary to comply with official ioBroker repository standards.
+---
 
 ## Description
 This adapter allows for detailed monitoring of your Nextcloud instance via the official OCS API (`serverinfo`). It provides numerous system data, user statistics, shares, as well as performance values from PHP (OPcache/FPM) and the database directly in ioBroker.
@@ -98,12 +110,17 @@ Verify if the token was correctly saved in Nextcloud using:
 
 If your Nextcloud is in maintenance mode, the adapter will not be able to fetch data and will log an error. This is normal behavior as the API is disabled during maintenance.
 
-### **WORK IN PROGRESS**
+# Changelog
+
+### **Work in progress**
+* (H5N1v2) Change name from nextcloud_monitoring to nextcloud-monitoring
+* (H5N1v2) Improved handling of Nextcloud maintenance mode (logged as info instead of error)
+
+### 1.1.1 (2026-01-13)
 * (H5N1v2) fixed: repository URLs and naming conventions
 * (H5N1v2) added: encrypted and protected native support for tokens
 
-Changelog
-1.1.0
+### 1.1.0
 
 * (H5N1v2) Initial release.
 * (H5N1v2) Multi-language support for object names (DE/EN/IT/ES/RU etc.).
@@ -116,7 +133,7 @@ Changelog
 
 If you encounter any **bugs**, have **feature requests**, or want to suggest **improvements**, please feel free to open an **Issue** on GitHub. This helps to track the progress and helps other users with similar problems.
 
-[👉 Open a new Issue here](https://github.com/H5N1v2/iobroker.nextcloud_monitoring/issues)
+[👉 Open a new Issue here](https://github.com/H5N1v2/iobroker.nextcloud-monitoring/issues)
 
 ---
 
