@@ -1,4 +1,4 @@
-![Logo](admin/nextcloud-monitoring.png)
+![Logo](admin/nextcloud_monitoring.png)
 # ioBroker.nextcloud-monitoring
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.nextcloud-monitoring.svg)](https://www.npmjs.com/package/iobroker.nextcloud-monitoring)
