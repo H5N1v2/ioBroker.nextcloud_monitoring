@@ -1,13 +1,13 @@
 {
-  "name": "iobroker.nextcloud_monitoring",
-  "version": "1.1.0",
+  "name": "iobroker.nextcloud-monitoring",
+  "version": "1.1.1",
   "description": "Monitoring your Nextcloud",
   "author": {
     "name": "H5N1",
     "email": "h5n1@iknox.de"
   },
   "contributors": [],
-  "homepage": "https://github.com/H5N1v2/iobroker.nextcloud_monitoring",
+  "homepage": "https://github.com/H5N1v2/ioBroker.nextcloud-monitoring",
   "license": "MIT",
   "keywords": [
     "ioBroker",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/H5N1v2/iobroker.nextcloud_monitoring.git"
+    "url": "https://github.com/H5N1v2/ioBroker.nextcloud-monitoring.git"
   },
   "engines": {
     "node": ">= 20"
@@ -70,7 +70,7 @@
     "dev-server": "dev-server"
   },
   "bugs": {
-    "url": "https://github.com/H5N1v2/ioBroker.nextcloud_monitoring/issues"
+    "url": "https://github.com/H5N1v2/ioBroker.nextcloud-monitoring/issues"
   },
   "readmeFilename": "README.md"
 }

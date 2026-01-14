@@ -1,5 +1,5 @@
 {
-	"nextcloud_monitoring adapter settings": "Налаштування адаптера для nextcloud_monitoring",
+	"nextcloud-monitoring adapter settings": "Налаштування адаптера для nextcloud-monitoring",
 	"Domain": "Домен (без https://)",
 	"domain_help": "Введіть ваш Nextcloud без протоколу (наприклад, mycloud.de) або з папкою (наприклад, mycloud.de/folder)",
 	"Token": "Токен",

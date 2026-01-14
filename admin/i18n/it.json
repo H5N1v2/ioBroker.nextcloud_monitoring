@@ -1,5 +1,5 @@
 {
-	"nextcloud_monitoring adapter settings": "Impostazioni dell'adattatore per nextcloud_monitoring",
+	"nextcloud-monitoring adapter settings": "Impostazioni dell'adattatore per nextcloud-monitoring",
 	"Domain": "Dominio (senza https://)",
     "domain_help": "Inserisci il tuo Nextcloud senza il protocollo (ad esempio, mycloud.de) o con cartella (ad esempio, mycloud.de/folder)",
     "Token": "Token",

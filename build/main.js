@@ -27,7 +27,7 @@ var import_words = require("./lib/words");
 class NextcloudMonitoring extends utils.Adapter {
   apiClient;
   constructor(options = {}) {
-    super({ ...options, name: "nextcloud_monitoring" });
+    super({ ...options, name: "nextcloud-monitoring" });
     this.on("ready", this.onReady.bind(this));
     this.on("unload", this.onUnload.bind(this));
   }
@@ -265,7 +265,11 @@ class NextcloudMonitoring extends utils.Adapter {
       }
       this.log.info("Monitoring: Alle verf\xFCgbaren API-Daten wurden eingelesen.");
     } catch (error) {
-      this.log.error(`Fehler beim Einlesen der API-Daten: ${error.message}`);
+      if (error.response && error.response.status === 503) {
+        this.log.info("Nextcloud befindet sich im Wartungsmodus (Maintenance). Abfrage \xFCbersprungen.");
+      } else {
+        this.log.error(`Fehler beim Einlesen der API-Daten: ${error.message}`);
+      }
     }
   }
   /**

@@ -1,5 +1,5 @@
 {
-	"nextcloud_monitoring adapter settings": "Adapter settings for nextcloud_monitoring",
+	"nextcloud-monitoring adapter settings": "Adapter settings for nextcloud-monitoring",
     "Domain": "Domain (without https://), e.g. mycloud.de or mycloud.de/folder",
     "Connection Settings": "Connection Settings",
     "Data Options": "Data Options",

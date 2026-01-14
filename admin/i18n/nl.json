@@ -1,5 +1,5 @@
 {
-	"nextcloud_monitoring adapter settings": "Adapterinstellingen voor nextcloud_monitoring",
+	"nextcloud-monitoring adapter settings": "Adapterinstellingen voor nextcloud-monitoring",
 	"Domain": "Domain (zonder https://)",
     "domain_help": "Voer uw Nextcloud zonder het protocol in (bijvoorbeeld, mycloud.de) of met folder (bijvoorbeeld, mycloud.de/folder)",
     "Token": "Token",
