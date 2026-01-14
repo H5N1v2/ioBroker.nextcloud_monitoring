@@ -1,20 +1,33 @@
 {
   "common": {
     "name": "nextcloud-monitoring",
-    "version": "1.1.1",
+    "version": "1.1.3",
     "news": {
+      "1.1.3": {
+          "en": "repair tsconfig and cleanup release config",
+          "de": "tsconfig repariert und Release Config bereinigt",
+          "ru": "Исправление tsconfig и очистка конфигурации релиза",
+          "pt": "Correção do tsconfig e limpeza da configuração de release",
+          "nl": "Corrigeer tsconfig en cleanup release config",
+          "fr": "Correction de tsconfig et nettoyage de la configuration de release",
+          "it": "Correzione tsconfig e pulizia della configurazione di release",
+          "es": "Corrección de tsconfig y limpieza de la configuración de release",
+          "pl": "Poprawa tsconfig i czyszczenie konfiguracji release",
+          "zh-cn": "修复tsconfig和清理release配置",
+          "uk": "Виправлення tsconfig і очищення конфігурації релізу"
+      },
         "1.1.2": {
           "en": "Improved handling of Nextcloud maintenance mode (logged as info instead of error)\nChange name from nextcloud_monitoring to nextcloud-monitoring",
           "de": "Verbesserter Handel mit dem Nextcloud Wartungsmodus (als Info statt Fehler)\nName von nextcloud_monitoring zu nextcloud-monitoring gebracht",
           "ru": "Улучшенное обработка режима обслуживания Nextcloud (в качестве информации, а не ошибки)\nПереименование nextcloud_monitoring в nextcloud-monitoring",
           "pt": "Melhoria na gestão do modo de manutenção do Nextcloud (registrado como informação, em vez de erro)\nMudança do nome de nextcloud_monitoring para nextcloud-monitoring",
-          "nl": "Verbeterde behandeling van Nextcloud onderhoudsmodus (gedeeld als info, niet als fout)\nVeranderde naam van nextcloud_monitoring naar nextcloud-monitoring",
+          "nl": "Verbeterde behandeling van Nextcloud onderhoudsmodus (gedeeld als info, niet als fout)\nVeranderde naam van nextcloud_monitoring naar nextcloud-monitoring\nCorrigeer tsconfig en cleanup release config",
           "fr": "Amélioration de la gestion du mode de maintenance Nextcloud (enregistré comme info au lieu d'erreur)\nRenommage de nextcloud_monitoring en nextcloud-monitoring",
           "it": "Miglioramento della gestione del Nextcloud maintenance mode (registrato come info, invece di errore)\nRinomina nextcloud_monitoring in nextcloud-monitoring",
           "es": "Mejoramiento de la gestión del modo de mantenimiento Nextcloud (registrado como información, en lugar de error)\nCambio de nombre de nextcloud_monitoring a nextcloud-monitoring",
           "pl": "Ulepszenie obslugi trybu utrzymania Nextcloud (zarejestrowane jako informacja, a nie bład)\nZmiana nazwy nextcloud_monitoring na nextcloud-monitoring",
           "zh-cn": "Nextcloud维护模式的改进(作为信息而不是错误)\n从nextcloud_monitoring改名为nextcloud-monitoring",
-          "uk": "Улучшене обробка режиму обслуговування Nextcloud (зареєстровано як інформація, а не помилка)\nПерейменування nextcloud_monitoring на nextcloud-monitoring"
+          "uk": "Улучшене обробка режиму обслуговування Nextcloud (зареєстровано як інформація, а не помилка)"
       },
       "1.1.1": {
         "en": "fixed repository URLs and naming conventions\nadded encrypted and protected native support for tokens",

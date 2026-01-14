@@ -112,7 +112,10 @@ If your Nextcloud is in maintenance mode, the adapter will not be able to fetch 
 
 # Changelog
 
-### **Work in progress**
+### 1.1.3 (2026-01-14)
+* (H5N1v2) repair tsconfig and cleanup release config
+
+### 1.1.2 (2026-01-14)
 * (H5N1v2) Change name from nextcloud_monitoring to nextcloud-monitoring
 * (H5N1v2) Improved handling of Nextcloud maintenance mode (logged as info instead of error)
 
