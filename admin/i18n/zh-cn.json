@@ -1,8 +1,18 @@
 {
-	"nextcloud-monitoring adapter settings": "nextcloud-monitoring的适配器设置",
-	"Domain": "域名(不包含https://)",
-	"domain_help": "请输入您的Nextcloud域名(例如,mycloud.de)或带文件夹的域名(例如,mycloud.de/folder)",
-	"Token": "Token",
-	"Skip Apps": "跳过应用",
-	"Skip Updates": "跳过更新"
+    "Connection Settings": "连接设置",
+    "Nextcloud Multi-Server Configuration": "Nextcloud 多服务器配置",
+    "Please enter your connection details. Protocol (https://) is added automatically.": "请输入您的连接详情。无需输入 (https://)，系统会自动添加。",
+    "Nextcloud Instances": "Nextcloud 实例",
+    "Friendly Name": "友好名称",
+    "Domain / IP": "域名 / IP",
+    "Token": "令牌 (Token)",
+    "Data Options": "数据选项",
+    "Filter & Performance": "过滤与性能",
+    "Update Interval": "更新间隔",
+    "Time in minutes between API calls": "API 调用间隔时间（分钟）",
+    "Skip Apps Data": "跳过应用数据",
+    "Check this to reduce data volume (skips detailed app list)": "勾选此项以减少数据量（跳过详细的应用列表）",
+    "Skip Update Check": "跳过更新检查",
+    "Check this to disable version checking": "勾选此项以禁用版本检查",
+    "min": "分钟"
 }

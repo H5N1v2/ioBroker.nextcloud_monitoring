@@ -1,8 +1,18 @@
 {
-	"nextcloud-monitoring adapter settings": "Настройки адаптера для nextcloud-monitoring",
-	"Domain": "Домен (без https://)",
-	"domain_help": "Введите ваш Nextcloud без протокола (например, mycloud.de) или с папкой (например, mycloud.de/folder)",
-	"Token": "Токен",
-	"Skip Apps": "Пропустить приложения",
-	"Skip Updates": "Пропустить обновления"
+    "Connection Settings": "Настройки соединения",
+    "Nextcloud Multi-Server Configuration": "Конфигурация нескольких серверов Nextcloud",
+    "Please enter your connection details. Protocol (https://) is added automatically.": "Введите данные для подключения. Без (https://), оно будет добавлено автоматически.",
+    "Nextcloud Instances": "Экземпляры Nextcloud",
+    "Friendly Name": "Имя для отображения",
+    "Domain / IP": "Домен / IP",
+    "Token": "Токен",
+    "Data Options": "Параметры данных",
+    "Filter & Performance": "Фильтр и производительность",
+    "Update Interval": "Интервал обновления",
+    "Time in minutes between API calls": "Время в минутах между вызовами API",
+    "Skip Apps Data": "Пропустить данные приложений",
+    "Check this to reduce data volume (skips detailed app list)": "Выберите, чтобы уменьшить объем данных (пропускает подробный список приложений)",
+    "Skip Update Check": "Пропустить проверку обновлений",
+    "Check this to disable version checking": "Выберите, чтобы отключить проверку версии",
+    "min": "мин."
 }

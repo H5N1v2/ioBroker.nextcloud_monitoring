@@ -41,6 +41,7 @@ This adapter allows for detailed monitoring of your Nextcloud instance via the o
 * **Domain:** Enter your Nextcloud domain without `https://` (e.g., `cloud.yourdomain.com`).
 * **Token:** The OCS API token of your Nextcloud (see section "How-To: Token").
 * **Update Interval:** Time in minutes between API requests (Default: 10 min, Minimum: 5 min).
+* **Multible Server:** You can now add multible Server e.g.: my_server_1, and next server e.g.: other_server_2
 
 ### 2. Data Options
 * **Skip Apps:** Disables the detailed list of installed apps to reduce API load.
@@ -111,6 +112,13 @@ Verify if the token was correctly saved in Nextcloud using:
 If your Nextcloud is in maintenance mode, the adapter will not be able to fetch data and will log an error. This is normal behavior as the API is disabled during maintenance.
 
 # Changelog
+
+## **WORK IN PROGRESS**
+* (H5N1v2) Added Multi-Server Support: You can now manage and monitor multiple Nextcloud instances within a single adapter instance using a dynamic table configuration.
+* (H5N1v2) Refactored State Structure: Reorganized the object tree to provide a cleaner and more logical hierarchy for all monitored data.
+* (H5N1v2) Expanded Data Points: Added several new monitoring points including detailed PHP Opcache, APCu stats, and FPM process information.
+* (H5N1v2) Enhanced Localization: Updated and added comprehensive translations for 11 languages (DE, EN, IT, FR, ES, NL, RU, UK, ZH-CN, PL, PT).
+* (H5N1v2) Improved Admin UI: Integrated a dynamic table-based management system with helpful tooltips and descriptions for better user experience.
 
 ### 1.1.3 (2026-01-14)
 * (H5N1v2) repair tsconfig and cleanup release config

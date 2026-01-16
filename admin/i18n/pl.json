@@ -1,8 +1,18 @@
 {
-	"nextcloud-monitoring adapter settings": "Ustawienia adaptera dla nextcloud-monitoring",
-	"Domain": "Domena (bez https://)",
-	"domain_help": "Wprowadź swoją Nextcloud bez protokołu (np. mycloud.de) lub z folderem (np. mycloud.de/folder)",
-	"Token": "Token",
-	"Skip Apps": "Pomiń Aplikacje",
-	"Skip Updates": "Pomiń Aktualizacje"
+    "Connection Settings": "Ustawienia połączenia",
+    "Nextcloud Multi-Server Configuration": "Konfiguracja wielu serwerów Nextcloud",
+    "Please enter your connection details. Protocol (https://) is added automatically.": "Wprowadź dane połączenia. Bez (https://), zostanie ono dodane automatycznie.",
+    "Nextcloud Instances": "Instancje Nextcloud",
+    "Friendly Name": "Nazwa wyświetlana",
+    "Domain / IP": "Domena / IP",
+    "Token": "Token",
+    "Data Options": "Opcje danych",
+    "Filter & Performance": "Filtr i wydajność",
+    "Update Interval": "Częstotliwość aktualizacji",
+    "Time in minutes between API calls": "Czas w minutach między wywołaniami API",
+    "Skip Apps Data": "Pomiń dane aplikacji",
+    "Check this to reduce data volume (skips detailed app list)": "Zaznacz, aby zmniejszyć ilość danych (pomija szczegółową listę aplikacji)",
+    "Skip Update Check": "Pomiń sprawdzanie aktualizacji",
+    "Check this to disable version checking": "Zaznacz, aby wyłączyć sprawdzanie wersji",
+    "min": "min."
 }

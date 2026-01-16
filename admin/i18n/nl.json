@@ -1,8 +1,18 @@
 {
-	"nextcloud-monitoring adapter settings": "Adapterinstellingen voor nextcloud-monitoring",
-	"Domain": "Domain (zonder https://)",
-    "domain_help": "Voer uw Nextcloud zonder het protocol in (bijvoorbeeld, mycloud.de) of met folder (bijvoorbeeld, mycloud.de/folder)",
+    "Connection Settings": "Verbindingsinstellingen",
+    "Nextcloud Multi-Server Configuration": "Nextcloud Multi-Server configuratie",
+    "Please enter your connection details. Protocol (https://) is added automatically.": "Voer uw verbindingsgegevens in. Zonder (https://), dit wordt automatisch toegevoegd.",
+    "Nextcloud Instances": "Nextcloud instanties",
+    "Friendly Name": "Weergavenaam",
+    "Domain / IP": "Domein / IP",
     "Token": "Token",
-    "Skip Apps": "Apps overslaan",
-    "Skip Updates": "Updates overslaan"
+    "Data Options": "Gegevensopties",
+    "Filter & Performance": "Filter & Prestaties",
+    "Update Interval": "Update-interval",
+    "Time in minutes between API calls": "Tijd in minuten tussen API-aanroepen",
+    "Skip Apps Data": "App-gegevens overslaan",
+    "Check this to reduce data volume (skips detailed app list)": "Vink dit aan om het datavolume te beperken (slaat gedetailleerde app-lijst over)",
+    "Skip Update Check": "Update-controle overslaan",
+    "Check this to disable version checking": "Vink dit aan om versiecontrole uit te schakelen",
+    "min": "min."
 }
