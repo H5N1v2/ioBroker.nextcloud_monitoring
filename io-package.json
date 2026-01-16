@@ -3,6 +3,19 @@
     "name": "nextcloud-monitoring",
     "version": "1.1.3",
     "news": {
+      "2.0.0": {
+        "en": "Multi-server support added, state structure refactored for better clarity, and localization expanded for all languages.",
+        "de": "Multi-Server-Unterstützung hinzugefügt, Datenpunkt-Struktur für bessere Übersicht überarbeitet und Lokalisierung für alle Sprachen erweitert.",
+        "ru": "Добавлена поддержка нескольких серверов, структура состояний переработана для большей ясности, расширена локализация для всех языков.",
+        "pt": "Suporte multi-servidor adicionado, estrutura de estados reformulada para maior clareza e localização expandida para todos os idiomas.",
+        "nl": "Multi-server ondersteuning toegevoegd, datastructuur herzien voor meer duidelijkheid, en lokalisatie uitgebreid voor alle talen.",
+        "fr": "Ajout du support multi-serveur, restructuration des états pour plus de clarté et extension de la localisation pour toutes les langues.",
+        "it": "Aggiunto il supporto multi-server, ristrutturazione degli stati per una migliore chiarezza e localizzazione ampliata per tutte le lingue.",
+        "es": "Añadido soporte multi-servidor, reestructuración de estados para mayor claridad y localización ampliada para todos los idiomas.",
+        "pl": "Dodano obsługę wielu serwerów, przebudowano strukturę stanów dla lepszej przejrzystości oraz rozszerzono lokalizację dla wszystkich języków.",
+        "uk": "Додана підтримка декількох серверів, структура станів перероблена для кращої ясності, розширена локалізація для всіх мов.",
+        "zh-cn": "添加了多服务器支持，重构了状态结构以使其更清晰，并扩展了所有语言的本地化。"
+    },
       "1.1.3": {
           "en": "repair tsconfig and cleanup release config",
           "de": "tsconfig repariert und Release Config bereinigt",
