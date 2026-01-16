@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "nextcloud-monitoring",
-    "version": "1.1.3",
+    "version": "2.0.0",
     "news": {
       "2.0.0": {
         "en": "Multi-server support added, state structure refactored for better clarity, and localization expanded for all languages.",
@@ -15,19 +15,19 @@
         "pl": "Dodano obsługę wielu serwerów, przebudowano strukturę stanów dla lepszej przejrzystości oraz rozszerzono lokalizację dla wszystkich języków.",
         "uk": "Додана підтримка декількох серверів, структура станів перероблена для кращої ясності, розширена локалізація для всіх мов.",
         "zh-cn": "添加了多服务器支持，重构了状态结构以使其更清晰，并扩展了所有语言的本地化。"
-    },
+      },
       "1.1.3": {
-          "en": "repair tsconfig and cleanup release config",
-          "de": "tsconfig repariert und Release Config bereinigt",
-          "ru": "Исправление tsconfig и очистка конфигурации релиза",
-          "pt": "Correção do tsconfig e limpeza da configuração de release",
-          "nl": "Corrigeer tsconfig en cleanup release config",
-          "fr": "Correction de tsconfig et nettoyage de la configuration de release",
-          "it": "Correzione tsconfig e pulizia della configurazione di release",
-          "es": "Corrección de tsconfig y limpieza de la configuración de release",
-          "pl": "Poprawa tsconfig i czyszczenie konfiguracji release",
-          "zh-cn": "修复tsconfig和清理release配置",
-          "uk": "Виправлення tsconfig і очищення конфігурації релізу"
+        "en": "repair tsconfig and cleanup release config",
+        "de": "tsconfig repariert und Release Config bereinigt",
+        "ru": "Исправление tsconfig и очистка конфигурации релиза",
+        "pt": "Correção do tsconfig e limpeza da configuração de release",
+        "nl": "Corrigeer tsconfig en cleanup release config",
+        "fr": "Correction de tsconfig et nettoyage de la configuration de release",
+        "it": "Correzione tsconfig e pulizia della configurazione di release",
+        "es": "Corrección de tsconfig y limpieza de la configuración de release",
+        "pl": "Poprawa tsconfig i czyszczenie konfiguracji release",
+        "zh-cn": "修复tsconfig和清理release配置",
+        "uk": "Виправлення tsconfig і очищення конфігурації релізу"
       },
       "1.1.1": {
         "en": "fixed repository URLs and naming conventions\nadded encrypted and protected native support for tokens",
