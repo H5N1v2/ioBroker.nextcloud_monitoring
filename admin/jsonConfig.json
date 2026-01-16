@@ -8,39 +8,45 @@
             "items": {
                 "header_connection": {
                     "type": "header",
-                    "text": "Nextcloud API Configuration",
+                    "text": "Nextcloud Multi-Server Configuration",
                     "size": 2,
                     "sm": 12
                 },
                 "info_text": {
                     "type": "staticText",
-                    "text": {
-                        "en": "Please enter your connection details. Protocol (https://) is added automatically.",
-                        "de": "Bitte Verbindungsdaten eingeben. Das Protokoll (https://) wird automatisch ergänzt.",
-                        "fr": "Veuillez saisir vos coordonnées de connexion. Le protocole (https://) est ajouté automatiquement.",
-                        "it": "Inserisci i tuoi dati di connessione. Il protocollo (https://) viene aggiunto automaticamente.",
-                        "es": "Por favor, introduzca sus datos de conexión. El protocolo (https://) se añade automáticamente.",
-                        "pl": "Wprowadź dane połączenia. Protokół (https://) jest dodawany automatycznie.",
-                        "nl": "Voer uw verbindingsgegevens in. Protocol (https://) wird automatisch toegevoegd.",
-                        "ru": "Пожалуйста, введите данные вашего соединения. Протокол (https://) добавляется автоматически.",
-                        "uk": "Будь ласка, введіть дані з'єднання. Протокол (https://) додається автоматично.",
-                        "pt": "Por favor, insira seus detalhes de conexão. O protocolo (https://) é adicionado automaticamente.",
-                        "zh-cn": "请输入您的连接详情。协议 (https://) 会自动添加。"
-                    },
+                    "text": "Please enter your connection details. Protocol (https://) is added automatically.",
+                    "style": { 
+                      "fontSize": "15px",
+                      "fontWeight": "bold"
+                 },                
                     "sm": 12
                 },
-                "domain": {
-                    "type": "text",
-                    "label": "Domain",
-                    "placeholder": "your-cloud.com",
+                "servers": {
+                    "type": "table",
+                    "label": "Nextcloud Instances",
                     "sm": 12,
-                    "md": 6
-                },
-                "token": {
-                    "type": "password",
-                    "label": "Token",
-                    "sm": 12,
-                    "md": 6
+                    "items": [
+                        {
+                            "type": "text",
+                            "attr": "name",
+                            "title": "Friendly Name",
+                            "width": "20%",
+                            "default": "My Cloud"
+                        },
+                        {
+                            "type": "text",
+                            "attr": "domain",
+                            "title": "Domain / IP",
+                            "placeholder": "your-cloud.com",
+                            "width": "40%"
+                        },
+                        {
+                            "type": "password",
+                            "attr": "token",
+                            "title": "Token",
+                            "width": "40%"
+                        }
+                    ]
                 }
             }
         },
@@ -68,7 +74,7 @@
                 "skipApps": {
                     "type": "checkbox",
                     "label": "Skip Apps Data",
-                    "help": "Check this to reduce data volume",
+                    "help": "Check this to reduce data volume (skips detailed app list)",
                     "default": false,
                     "sm": 12,
                     "md": 3
